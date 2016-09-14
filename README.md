@@ -5,15 +5,15 @@ All the scripts are tested to run on the CLSP grid of Johns Hopkins University.
 DEPENDENCIES
 ------------
 Stanford Chinese Word Segmentor >= v3.4.1
-[nematus](https://github.com/shuoyangd/nematus) (Note the upstream copy may not run smoothly on CLSP grid)
-[subword-nmt](https://github.com/rsennrich/subword-nmt)
-[Moses Decoder](https://github.com/shuoyangd/mosesdecoder) (You don't need to compile for this since we only use the scripts)
++ [nematus](https://github.com/shuoyangd/nematus) (Note the upstream copy may not run smoothly on CLSP grid)
++ [subword-nmt](https://github.com/rsennrich/subword-nmt)
++ [Moses Decoder](https://github.com/shuoyangd/mosesdecoder) (You don't need to compile for this since we only use the scripts)
 
 SETUP
 ------------
 You need to change the following files to run your own experiment:
 + `env.sh`: change all the paths to your directory
-+ `preprocess.sh` `train.sh` `validate.sh`: find a line `source /path/to/env.sh`, point it to the env.sh in your directory
++ `preprocess.sh` `train.sh` `validate.sh`: find a line `source /path/to/env.sh`, point it to the `env.sh` in your directory
 
 INSTRUCTIONS
 ------------
