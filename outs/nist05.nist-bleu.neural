@@ -1,0 +1,27 @@
+MT evaluation scorer began on 2016 Sep 14 at 12:15:26
+command line:  /home/shuoyangd/mosesstd/scripts/generic/mteval-v13a.pl -s /home/shuoyangd/experiments/baseline/data/test/eval05-src.sgm -r /home/shuoyangd/experiments/baseline/data/test/eval05-ref.sgm.utf8 -t /home/shuoyangd/experiments/baseline/evaluation/nist05.detokenized.sgm.neural
+  Evaluation of Chinese-to-English translation using:
+    src set "mt05_chinese_evlset_v0" (100 docs, 1082 segs)
+    ref set "mt05_chinese_evlset_v0" (4 refs)
+    tst set "mt05_chinese_evlset_v0" (1 systems)
+
+length ratio: 1.04909044178542 (36736/35017), penalty (log): 0
+NIST score = 8.3116  BLEU score = 0.3287 for system "Edinburgh"
+
+# ------------------------------------------------------------------------
+
+Individual N-gram scoring
+        1-gram   2-gram   3-gram   4-gram   5-gram   6-gram   7-gram   8-gram   9-gram
+        ------   ------   ------   ------   ------   ------   ------   ------   ------
+ NIST:  5.8516   1.8203   0.4742   0.1215   0.0441   0.0168   0.0082   0.0044   0.0021  "Edinburgh"
+
+ BLEU:  0.6645   0.4123   0.2591   0.1645   0.1054   0.0673   0.0436   0.0284   0.0178  "Edinburgh"
+
+# ------------------------------------------------------------------------
+Cumulative N-gram scoring
+        1-gram   2-gram   3-gram   4-gram   5-gram   6-gram   7-gram   8-gram   9-gram
+        ------   ------   ------   ------   ------   ------   ------   ------   ------
+ NIST:  5.8516   7.6719   8.1461   8.2676   8.3116   8.3284   8.3366   8.3410   8.3431  "Edinburgh"
+
+ BLEU:  0.6645   0.5234   0.4140   0.3287   0.2618   0.2088   0.1669   0.1338   0.1069  "Edinburgh"
+MT evaluation scorer ended on 2016 Sep 14 at 12:15:58
