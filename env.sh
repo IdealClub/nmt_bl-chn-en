@@ -18,4 +18,5 @@ export TRNDATA=$WORKDIR/data/corpus
 export DEVDATA=$WORKDIR/data/eval05
 export TSTDATA=$WORKDIR/data/eval08
 export VLD_SCRPT=$WORKDIR/validate.sh
+export WRAP_TEMPLATE=$WORKDIR/data/eval08.zh.sgm
 

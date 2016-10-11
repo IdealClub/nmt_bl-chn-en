@@ -6,6 +6,7 @@ mosesdecoder=/home/pkoehn/moses
 # suffix of target language files
 lng=en
 
-sed -r 's/ \@(\S*?)\@ /\1/g' | \
+sed -r 's/\@\@ //g' | \
+# sed -r 's/ \@(\S*?)\@ /\1/g' | \
 $mosesdecoder/scripts/recaser/detruecase.perl | \
 $mosesdecoder/scripts/tokenizer/detokenizer.perl -l $lng
